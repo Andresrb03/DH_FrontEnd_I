@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Federo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+body{
+    margin: 10px;
+    background-color: #e2dec6;
+}
+
+.gif{
+    width: 600px;
+    height: 400px;
+    display: block;
+    margin: auto;
+    border-radius: 20%;
+}
+p{
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-size: 23px;
+}
+h1{
+    background-color: #E3C937;
+    letter-spacing: 4px;
+    font-family:  'Federo', sans-serif;
+    font-size: 30px;
+    width: fit-content;
+    margin: auto;
+    border-style: dashed ;
+}
+h2{
+    letter-spacing: 4px;
+    font-family:  'Federo', sans-serif;
+    font-size: 30px;
+}
+a{
+    font-family:  'Federo', sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+    margin: auto;
+    display: block;
+    margin: auto;
+    width: fit-content;
+}

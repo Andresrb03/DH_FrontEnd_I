@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Federo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+body{
+    margin: 0;
+    background-color: #e2dec6;
+}
+.contenedor-header{
+    background-image: url(../img/banner.jfif);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    border-radius: 20px;    
+}
+#cont-1{
+order: 2;
+}
+#cont-2{
+    order: 1;
+}
+h2{
+    font-family:  'Federo', sans-serif;
+    font-size: 80px;
+    margin-top: 150px;
+    margin-left: 450px;
+    
+}
+img{
+    height: 300px;
+    width: 300px;
+    margin: 50px;
+    padding-left: 10px;
+    align-content: center;
+    border-radius: 40%;
+    
+}
+h1{
+    background-color: #E3C937;
+    letter-spacing: 4px;
+    font-family:  'Federo', sans-serif;
+    font-size: 30px;
+    width: 700px;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    border-style:dashed;
+    }
+p#descripcion {
+    font-family:  'Federo', sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 30px;
+    
+}
+a{
+    font-family: 'Federo', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    width: 350px;
+    margin: auto;
+    display: block;
+}
+h3{
+    letter-spacing: 4px;
+    font-family:  'Federo', sans-serif;
+    font-size: 30px;
+    text-decoration: underline;
+    margin-left: 15px;
+    width: fit-content;
+    border-style: dashed;
+    background-color: #E3C937;
+}
+li{
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-size: 23px;
+    font-weight: bold;
+}
+.parrafos{
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-size: 23px;
+    display: inline;
+    margin-left: 40px;
+    line-height: 30px;
+}
+h4{
+    letter-spacing: 4px;
+    font-family:  'Federo', sans-serif;
+    font-size: 30px;
+    margin: auto;
+    width: fit-content;
+    border-style: dashed;
+    background-color: #E3C937;
+    align-items: center;
+    margin-top: 100px;
+}
+
+/*.img_redes{
+    height: 50px;
+    width: 50px;
+    margin: 30px;
+}
+*/
+.pie-pagina{
+display: flex;
+margin: auto;
+height: 50px;
+width: 50px;
+margin-left: 650px;
+line-height: auto;
+    
+}
+#img-redes{
+    height: 50px;
+    width: 50px;
+}
+

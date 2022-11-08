@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+h2{
+    background-color: #1CD1B0;  
+    font-size: 15px;
+    padding-left: 27px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+h1{
+    background-color: #00669F;
+    font-size: 40px;
+    padding-left: 28px;
+    padding-top: 28px;
+    padding-bottom: 26px;
+    width: 100%;
+
+}
+
+main{
+    display: flex;
+    margin-bottom: 203px;
+}
+.contenedor-1{
+    display: block;
+    width: 300px;
+    height: 336px;
+    text-align: center;
+    padding-top: 293px;
+    margin: auto;
+    position: relative;
+    z-index: 10; 
+}
+
+#corazon{
+    position: absolute;
+    left: 21px;
+    bottom: 300px;
+    z-index: 20;
+}
+#foto-perfil{
+    position: absolute;
+    border-radius: 50%;
+    top: 421px;
+    left: 90px;
+    z-index: 100;
+}
+.contenedor-2{
+    background-color: #F3F3F3;
+    height: 336px;
+    position: relative;
+    z-index: 30;
+    
+}
+h3{
+    position: absolute;
+    left: 89px;
+    top: 74px;
+    z-index: 32;
+    font-size: 30px;
+}
+h4{
+    position: absolute;
+    left: 65px;
+    top: 74px;
+    z-index: 32;
+    font-size: 30px;
+}
+p{
+    margin: 16px;
+    position: absolute;
+    top: 119px;
+    text-align: left;
+}
+.boton{
+    position: absolute;
+    width: 128px;
+    background-color: #00669F;
+    z-index: 40;
+    top: 284px;
+    left: 85px;
+    bottom: 18px;
+}
+.boton article{
+    color: #F3F3F3;
+    font-size: 15px;
+    margin-bottom: 15px;
+    
+}
+footer{
+    margin-top: 300px;
+    width: 100%;
+    padding: auto;
+}
+h5{
+    background-color: #00669F;
+    font-size: 16px;
+    position: relative;
+    color: #FFF9F9;
+    height: 51px;
+    justify-content: center;
+    padding-left: 16px;
+    width: 100%;
+
+}
+
+
+

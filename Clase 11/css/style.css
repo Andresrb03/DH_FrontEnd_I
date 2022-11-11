@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.logo img{
+    display: flex;
+    margin: 10px;
+}
+.contenedor-header{
+    width: 100%;
+    display: flex;
+    background-color: black;
+    box-shadow: 0px 100px 4px rgba(149, 236, 10, 0.25);
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;
+}
+#texto-1{
+    color: #39B24A;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+#texto-2{
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+#texto-3{
+    color: #FC200C;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: #F3F3F3;
+    margin: 13px;
+    font-size: 16px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+.contenedor-main{
+    display: flex;
+    background-color: #E5E5E5;
+}
+.caja-1 img{
+    width: 100%;
+    border-radius: 1%;
+}
+.caja-1{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 20px;
+    display: flex;
+    position: relative;
+    width: 50%;
+    height: 350px;
+    border-radius: 1%;
+}
+.texto-caja-1{
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    position: absolute;
+    left: 20px;
+}
+#texto-caja-1-rojo{
+    color: #FC200C;
+    font-size: 24px;
+    font-weight: bold;
+}
+#texto-caja-1-blanco{
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 24px;
+}
+.caja-2{
+    background-color: #ffffff;
+    width: 50%;
+    display: flex;
+    margin-top: 35px;
+    border-radius: 1%;
+    margin-right: 20px;
+    margin-left: 5px;
+    margin-bottom: 35px;
+    position: relative;
+}
+h2{
+    
+    color: #FC200C;
+    font-size: 24px;
+    top: 26px;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+}
+h3{
+    font-size: 20px;
+    display: flex;
+    top: 112px;
+    left: 69px;
+    position: absolute;
+}
+ol{
+    display: flex;
+    flex-direction: column;
+    top: 155px;
+    left: 51px;
+    position: absolute;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 25px;
+}
+.caja-2 img{
+    height: 129px;
+    width: 92px;
+    display: flex;
+    position: absolute;
+    left: 490px;
+    top: 132px;
+}
+.contenedor-footer{
+    width: 100%;
+    display: flex;
+    background-color: black;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.menu-footer{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    line-height: 12px;
+    margin-top: 12px;
+}
+.logo-footer{
+    display: flex;
+    margin: 42px;
+}
+.logo-footer img{
+    margin: 10px;
+}
